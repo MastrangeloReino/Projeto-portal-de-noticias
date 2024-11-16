@@ -20,10 +20,14 @@ section header{
         background-image: url(../assets/icons/ArrowRight-hover.svg)
     }
   }
+  
 }
 
 
 #featured{
+
+    grid-area: featured;
+    
     img{
         height: 100%;
         object-fit: cover;
@@ -70,6 +74,9 @@ section header{
 
 #weekly {
 
+    grid-area: weekly;
+    
+
     &>div {
         grid-template-columns:repeat(4, 292px);
     }
@@ -95,7 +102,64 @@ section header{
 }
 
 
+/*ai{
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    h3{
+        margin-top: 8px;
+    }
+}*/
+
+
+.imagens-destaque{
+    width: 176px;
+    margin-left: 550px;
+    margin-top: -170px;
    
+}
+
+
+.text-rigth{
+    box-sizing: border-box;
+   display:inline-block;
+   margin-top: -250px;
+   margin-bottom: 10px;
+   margin-left: 90px;
+ 
+}
+
+.imagem-right{
+    display:block;
+    margin-bottom: -32px;
+    
+   
+    
+    
   
+
+}
+
+.grid-flow-col .gap-16{
+    margin-top: 3px;
+}
+
+aside{
+    grid-area: aside;
+
+}
+
+#more{
+
+    margin-top: 32px;
+    img{
+        width: 76px;
+    }
+
+    
+}
+   
+
    
 
